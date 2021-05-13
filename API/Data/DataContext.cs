@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Data
 {
-    public class SqliteDataContext : DbContext
+    public class DataContext : DbContext
     {
-        public SqliteDataContext(DbContextOptions options) : base(options)
+        public DataContext(DbContextOptions options) : base(options)
         {
         
         }

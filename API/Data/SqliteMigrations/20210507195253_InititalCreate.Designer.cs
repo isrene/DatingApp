@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace API.Data.SqliteMigrations
 {
-    [DbContext(typeof(SqliteSqliteDataContext))]
+    [DbContext(typeof(SqliteDataContext))]
     [Migration("20210507195253_InititalCreate")]
     partial class InititalCreate
     {

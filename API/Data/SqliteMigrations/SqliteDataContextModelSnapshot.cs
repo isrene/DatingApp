@@ -6,8 +6,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace API.Data.SqliteMigrations
 {
-    [DbContext(typeof(SqliteSqliteDataContext))]
-    partial class SqliteSqliteDataContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(SqliteDataContext))]
+    partial class DataContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
