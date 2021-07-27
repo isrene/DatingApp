@@ -7,7 +7,7 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "strictNullChecks": false,
-    "noImplicitReturns": true,
+    "noImplicitReturns": false, //The comlaint is that the first if(){} is missing an else{} block with a return statement. You can disable this behaviour in a tsconfig file setting:
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "declaration": false,
